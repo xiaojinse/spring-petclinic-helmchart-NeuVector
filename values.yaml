@@ -8,7 +8,7 @@ image:
   repository: 13.231.211.231:30443/library/samples/spring-petclinic
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: v1.0.5
+  tag: v1.0.11
 
 imagePullSecrets: []
 nameOverride: "spring-petclinic"
