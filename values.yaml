@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: 18.237.59.191:30443/library/samples/spring-petclinic
+  repository: 18.179.27.149:30443/library/samples/spring-petclinic
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: v1.0.2
+  tag: v1.0.6
 
 imagePullSecrets: []
 nameOverride: "spring-petclinic"
